@@ -7,6 +7,7 @@ namespace Fundamentals
         static void Main(string[] args)
         {
             LINQ.LINQmain();
+            LambdaExpression.LambdaExpressionMain();
         }
     }
 }
