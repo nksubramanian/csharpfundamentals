@@ -8,6 +8,10 @@ namespace Fundamentals
         {
             LINQ.LINQmain();
             LambdaExpression.LambdaExpressionMain();
+            Console.WriteLine("***************Extension Method************");
+            ExtensionMethod.ExtensionMethodMain();
+            Console.WriteLine("***************Generics********************");
+            Generics.GenericsMain();
         }
     }
 }
