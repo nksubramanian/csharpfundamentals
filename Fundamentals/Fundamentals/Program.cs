@@ -6,7 +6,7 @@ namespace Fundamentals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            LINQ.LINQmain();
         }
     }
 }
