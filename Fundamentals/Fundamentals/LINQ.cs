@@ -74,6 +74,14 @@ namespace Fundamentals
                 Console.WriteLine(x);
             }
 
+            string Numbersentence = "1 2 3 4 5";
+
+            //var x = Numbersentence.Split(" ").ForEach(gg => Int.Parse(gg)).ToArray();
+
+
+
+
+
 
 
 
