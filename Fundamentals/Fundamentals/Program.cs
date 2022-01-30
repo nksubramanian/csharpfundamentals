@@ -12,6 +12,7 @@ namespace Fundamentals
             ExtensionMethod.ExtensionMethodMain();
             Console.WriteLine("***************Generics********************");
             Generics.GenericsMain();
+            Delegate.DelegateMain();
         }
     }
 }
