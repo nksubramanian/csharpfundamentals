@@ -27,6 +27,44 @@ namespace Fundamentals
             var f = listincrementer(a11, b11);
             Console.WriteLine(string.Join(",", f));
 
+            var bio1 = new Bio(24);
+            var bio2 = new Bio(36);
+            Console.WriteLine("bio1>bio2 " + compare(bio1, bio2));
+
+            var first = new MyList<int>();
+            first.Add(1);
+            first.Add(2);
+            first.Add(3);
+
+            Console.WriteLine("999999999999999999999999999999999999999999");
+
+            Console.WriteLine(first.list[0]);
+            Console.WriteLine(first.list[1]);
+            Console.WriteLine(first.list[2]);
+
+
+            first[2] = 45;
+
+            Console.WriteLine("altered values of list are below");
+            Console.WriteLine(first[0]);
+            Console.WriteLine(first[1]);
+            Console.WriteLine(first[2]);
+
+            var second = new MyList<int>();
+            second.Add(1);
+            second.Add(2);
+            second.Add(3);
+
+            var third = new MyList<int>();
+            third = first + second;
+
+            Console.WriteLine("*******************Third is below");
+
+            Console.WriteLine(third.ToString());
+
+
+
+
 
         }
 
