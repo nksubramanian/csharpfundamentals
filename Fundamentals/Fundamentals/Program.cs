@@ -13,6 +13,8 @@ namespace Fundamentals
             Console.WriteLine("***************Generics********************");
             Generics.GenericsMain();
             Delegate.DelegateMain();
+            Console.WriteLine("***************************************");
+            new DelegateTwo().DelegateTwoMain();
         }
     }
 }
