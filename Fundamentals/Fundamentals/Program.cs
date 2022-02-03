@@ -15,6 +15,9 @@ namespace Fundamentals
             Delegate.DelegateMain();
             Console.WriteLine("***************************************");
             new DelegateTwo().DelegateTwoMain();
+            new FuncDelegate().FuncDelegateMain();
+            new ActionDelegate().ActionDelegateMain();
+            new AnonymousMethods().AnonymousMethodsMain();
         }
     }
 }

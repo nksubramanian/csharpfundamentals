@@ -29,20 +29,24 @@ namespace Fundamentals
 
             Console.WriteLine("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
             Console.WriteLine(string.Join(",", list));
-            var ty = delegatereturn<string>(name);
-            Console.WriteLine(string.Join(",", ty));
+            //var ty = delegatereturn<string>(name);
+            //Console.WriteLine(string.Join(",", ty));
 
         }
 
-        
-        public List<T> delegatereturn<T>(T x, object parameter = null)
+
+       /* public static List<T> CatchAllResults<T>(Delegate del, object parameter = null)
         {
-            var tt = new List<T>();
-            tt.Add(x);
-            tt.Add(x);
-            return tt;
-
+            List<T> result = del.GetInvocationList()
+                                .Select(d => (T)d.DynamicInvoke(parameter))
+                                .ToList();
+            return result;
         }
+
+        public static void check(Delegate del)
+        {
+            del("subbu");
+        }*/
 
 
         private bool lessthanfive(string name)
