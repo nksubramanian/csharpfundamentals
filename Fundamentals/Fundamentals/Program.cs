@@ -18,6 +18,7 @@ namespace Fundamentals
             new FuncDelegate().FuncDelegateMain();
             new ActionDelegate().ActionDelegateMain();
             new AnonymousMethods().AnonymousMethodsMain();
+            new AnonymousMethodsTwo().AnonymousMethodsTwoMain();
         }
     }
 }
