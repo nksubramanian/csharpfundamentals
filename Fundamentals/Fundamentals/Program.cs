@@ -21,7 +21,12 @@ namespace Fundamentals
             new AnonymousMethodsTwo().AnonymousMethodsTwoMain();
             Console.WriteLine("********************TASK*******************");
             new TaskLearning().TaskLearningMain();
-
+            Console.WriteLine("********************TASK 2*****************");
+            Console.Clear();
+            new TaskTwo().TaskTwoMain();
+            Console.WriteLine("********************TASK 3*****************");
+            Console.Clear();
+            new TaskThree().TaskThreeMain();
         }
     }
 }
