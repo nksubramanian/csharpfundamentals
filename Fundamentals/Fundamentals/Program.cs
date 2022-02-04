@@ -19,6 +19,9 @@ namespace Fundamentals
             new ActionDelegate().ActionDelegateMain();
             new AnonymousMethods().AnonymousMethodsMain();
             new AnonymousMethodsTwo().AnonymousMethodsTwoMain();
+            Console.WriteLine("********************TASK*******************");
+            new TaskLearning().TaskLearningMain();
+
         }
     }
 }
